@@ -15,7 +15,7 @@
    <!-- navbar section -------------- start -------------- -->
     <nav class="teal accent-2">
         <div class="nav-wrapper">
-          <a href="#!" class="black-text hide-on-med-and-up">Home</a>
+          <a href="#!" class="black-text hide-on-med-and-up">users managment</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text bold"><i class="material-icons">menu</i></a>
           <ul class="hide-on-med-and-down">
             <li><a href="sass.html" class="black-text">Sass</a></li>
@@ -47,17 +47,27 @@
 <!-- navbar section -------------- end -------------- -->
 
 
-<!-- home section -------------- start -------------- -->
+<!-- content section -------------- start -------------- -->
 
-<section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
-<img src="/assets/images/R.jpg" alt="" class="w_100 max-w-500px filter_shadow">
-<a class="waves-effect waves-light btn teal accent-2 black-text w-full max-w-250 m-t-10 mb-10 rounded_pill">button</a>
-<a class="waves-effect waves-light btn teal accent-2 black-text w-full max-w-250 m-t-10 mb-10 rounded_pill">button</a>
-
-
+<section id="top_actions_section">
+    <!-- add button --------- -->
+    <div class="p-l-10 p-r-10 p-t-10">
+        <button class="black-text waves-light btn  teal accent-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+            <i class="material-icons m-r-5">add</i>
+            Add User
+        </button>
+    </div>
+    <!-- search section --------- -->
+    <div class="row">
+        <div class="input-field col s12">
+          <input  id="search" type="text" class="validate">
+          <label for="search">
+            <i class="material-icons pos-relative top-7">search</i>
+            search</label>
+        </div>
 </section>
 
-<!-- home section -------------- end -------------- -->
+<!-- content section -------------- end -------------- -->
 
 <script src="/assets/materialize/js/materialize.min.js"></script>
 <script src="/assets/js/app.js"></script>

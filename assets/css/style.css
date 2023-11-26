@@ -18,3 +18,11 @@ transform: rotate(180deg);
 .users_list_item.active , .users_list_item.active .collapsible-header {
 background-color: rgba(158, 154, 154, 0.349);
 }
+
+table.highlight > tbody > tr:hover {
+    background-color: #64ffda;
+}
+
+.container{
+    width: 100% !important
+}
